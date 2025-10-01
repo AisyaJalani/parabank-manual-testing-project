@@ -1,0 +1,8 @@
+Bug ID,Title,Module,Environment,Steps to Reproduce,Test Data,Expected Result,Actual Result,Severity,Priority,Reproducible,Attachments,Reporter,Date Reported,Status,Comments
+BUG_002,Internal error occurs upon valid login,Login,Chrome 117 / Windows 10 / https://parabank.parasoft.com,"1. Navigate to Parabank login page
+  2. Enter valid credentials (username=testuser01, password=Password123!)
+  3. Click Login",,User is redirected to Accounts Overview page,System error “An internal error has occurred and has been logged.”,Critical,P1,Yes (happens on every attempt),,Aisyah,2025-09-30,Open,
+BUG _003,Transfer allowed despite insufficient balance threshold,Transfer Funds,Chrome 117 / Windows 10 / https://parabank.parasoft.com,"1. Login with valid user credentials.
+2. Navigate to Transfer Funds page.
+3. Attempt to transfer $1000.00 from an account with a current balance of $515.50.
+4. Submit the transfer.",,"System should prevent the transfer and display an error message (e.g., “Insufficient balance” or “Transfer amount exceeds available funds”).","Transfer is processed successfully despite insufficient balance, and transaction completes.",Critical,P1,Yes (happens consistently).,,Aisyah,2025-09-30,Open,
