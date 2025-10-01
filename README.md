@@ -15,9 +15,9 @@ It showcases **manual testing fundamentals** and introduces **basic automation**
   - Valid, invalid, and boundary inputs
 - **Bug Reporting**
   - Sample bug reports with severity levels
-- **Automation (Starter)**
+<!-- - **Automation (Starter)**
   - Selenium script for login validation
-  - Postman API test for account services
+  - Postman API test for account services -->
 
 ---
 
@@ -25,15 +25,14 @@ It showcases **manual testing fundamentals** and introduces **basic automation**
 TestCases/ → Test case documents (Excel)
 BugReports/ → Logged defects
 TestSummary/ → Test summary report
-Automation/ → Selenium & Postman tests
+<!-- Automation/ → Selenium & Postman tests -->
 
 
 ---
 
 ## 🛠️ Tools Used
-- Manual: Excel, Google Sheets, JIRA (optional)
-- Automation: Selenium (Python), Postman
-- Documentation: MS Word / Google Docs
+- Manual: Google Sheets
+- Documentation: Google Docs
 
 ---
 
